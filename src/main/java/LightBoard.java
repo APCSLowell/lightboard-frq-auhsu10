@@ -30,7 +30,7 @@ public class LightBoard
   {
     /* to be implemented in part (b) */
     int lightson=0;
-    for(int i=0li<lights.length;i++){
+    for(int i=0;i<lights.length;i++){
       if(lights[row+i][col]==true)
         lightson++;
     }
